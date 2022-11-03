@@ -90,7 +90,7 @@
           "style": "diamond",
           "foreground": "#ffffff",
           "foreground_templates": ["{{ if gt .Code 0 }}#E06C75{{ end }}"],
-          "template": " {{ .FormattedMs }} ",
+          "template": "{{ .FormattedMs }} 🍺 ",
           "properties": {
             "always_enabled": true,
             "style": "roundrock"
@@ -100,7 +100,7 @@
           "type": "sysinfo",
           "powerline_symbol": "\ue0b0",
           "foreground": "#47d25a",
-          "template": " \uf85a {{ round .PhysicalPercentUsed .Precision }}% ",
+          "template": "\uf85a {{ round .PhysicalPercentUsed .Precision }}% ",
           "properties": {
             "precision": 2
           },
@@ -131,7 +131,7 @@
           "type": "path",
           "style": "plain",
           "foreground": "#61AFEF",
-          "template": "\ue5ff {{ .Path }}",
+          "template": "📂 {{ .Path }}",
           "properties": {
             "style": "agnoster_short"
           }
@@ -152,7 +152,7 @@
         {
           "type": "text",
           "style": "plain",
-          "template": "🍺"
+          "template": "🚀"
         }
       ],
       "newline": true
