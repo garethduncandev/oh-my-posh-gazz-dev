@@ -36,8 +36,11 @@
           "type": "dotnet",
           "style": "plain",
           "powerline_symbol": "\uE0B0",
-          "foreground": "#512bd4",
-          "template": " \uE77F {{ .Full }} "
+          "foreground": "#8264ef",
+          "template": " \uE77F {{ .Full }} ",
+          "properties": {
+            "display_mode": "context"
+          }
         },
         {
           "type": "node",
@@ -149,8 +152,7 @@
         {
           "type": "text",
           "style": "plain",
-          "foreground": "#E06C75",
-          "template": "⚡"
+          "template": "🍺"
         }
       ],
       "newline": true
