@@ -94,10 +94,14 @@
           }
         },
         {
-          "type": "connection",
-          "style": "plain",
-          "foreground": "#8822ee",
-          "powerline_symbol": "\uE0B0"
+          "type": "sysinfo",
+          "powerline_symbol": "\ue0b0",
+          "foreground": "#8f43f3",
+          "template": " \uf85a {{ round .PhysicalPercentUsed .Precision }}% ",
+          "properties": {
+            "precision": 2
+          },
+          "style": "powerline"
         },
         {
           "type": "time",
