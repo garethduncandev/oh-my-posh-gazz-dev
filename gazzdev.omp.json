@@ -96,12 +96,18 @@
         {
           "type": "sysinfo",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#8f43f3",
+          "foreground": "#47d25a",
           "template": " \uf85a {{ round .PhysicalPercentUsed .Precision }}% ",
           "properties": {
             "precision": 2
           },
           "style": "plain"
+        },
+        {
+          "foreground": "#47d25a",
+          "style": "plain",
+          "template": "{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB",
+          "type": "sysinfo"
         },
         {
           "type": "time",
