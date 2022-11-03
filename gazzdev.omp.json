@@ -94,6 +94,12 @@
           }
         },
         {
+          "type": "connection",
+          "style": "plain",
+          "foreground": "#8822ee",
+          "powerline_symbol": "\uE0B0"
+        },
+        {
           "type": "time",
           "style": "accordion",
           "foreground": "#bdbdbd",
