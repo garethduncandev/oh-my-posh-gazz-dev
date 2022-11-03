@@ -101,7 +101,7 @@
           "properties": {
             "precision": 2
           },
-          "style": "powerline"
+          "style": "plain"
         },
         {
           "type": "time",
