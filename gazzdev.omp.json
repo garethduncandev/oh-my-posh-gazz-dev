@@ -46,7 +46,7 @@
           "foreground": "#6CA35E",
           "template": " \uE718 {{ .Full }} ",
           "properties": {
-            "display_mode": "files"
+            "display_mode": "context"
           }
         },
         {
@@ -56,7 +56,7 @@
           "foreground": "#ffeb3b",
           "template": "\ue71e {{ .Full }} ",
           "properties": {
-            "display_mode": "files"
+            "display_mode": "context"
           }
         },
         {
